@@ -1,0 +1,111 @@
+@font-face {
+    font-family: outfit;
+    src: url("fonts/Outfit-Thin.ttf");
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: outfit;
+    src: url("fonts/Outfit-ExtraLight.ttf");
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: outfit;
+    src: url("fonts/Outfit-Light.ttf");
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: outfit;
+    src: url("fonts/Outfit-Regular.ttf");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: outfit;
+    src: url("fonts/Outfit-Medium.ttf");
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: outfit;
+    src: url("fonts/Outfit-SemiBold.ttf");
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: outfit;
+    src: url("fonts/Outfit-Bold.ttf");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: outfit;
+    src: url("fonts/Outfit-ExtraBold.ttf");
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: outfit;
+    src: url("fonts/Outfit-Black.ttf");
+    font-weight: 900;
+    font-style: normal;
+}
+
+html {
+    font-family: 'outfit', 'Verdana', 'sans-serif';
+    background-color: hsl(212, 45%, 89%);
+    font-size: 15px;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+h2, p {
+    margin: 0;
+}
+
+.qr-code-container {
+    width: 320px;
+    height: 500px;
+    background-color: hsl(0,0%,100%);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.3rem;
+}
+
+.qr-code {
+    width: auto;
+    height: 75%;
+}
+
+.qr-code img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.qr-title, .qr-text {
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.qr-title {
+    color: hsl(218, 44%, 22%);
+}
+
+.qr-text {
+    color: hsl(220, 15%, 55%);
+    padding: 0 1.9rem;
+}
